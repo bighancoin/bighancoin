@@ -1,0 +1,34 @@
+src/*.exe
+src/Bighancoin
+src/Bighancoind
+src/test_Bighancoin
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.Bighancoin
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+Bighancoin-qt
+Bighancoin-Qt.app
+
+# Unit-tests
+Makefile.test
+Bighancoin-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb-*/Makefile
